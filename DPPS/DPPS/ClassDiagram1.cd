@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DPPS.CommandsResolvers.HelpResolver">
+    <Position X="25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>CommandsResolvers\HelpResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.CommandsResolvers.SequenceFileResolver">
+    <Position X="27" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQEIAIAAAAAAAAAAIAAIAAAAARAAAAAAAABAA=</HashCode>
+      <FileName>CommandsResolvers\SequenceFileResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.CommandsResolvers.VersionResolver">
+    <Position X="35" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandsResolvers\VersionResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.Node">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parser\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.NodeBinary">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAIAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parser\NodeBinary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.NodeFunctionCall">
+    <Position X="13.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Parser\NodeFunctionCall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.NodeNumber">
+    <Position X="15.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Parser\NodeNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.NodeUnary">
+    <Position X="17.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parser\NodeUnary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.NodeVariable">
+    <Position X="20" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parser\NodeVariable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.Parser">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAABAAIAAAAAAAAAAiAAIAAAAAABAAAAAAA=</HashCode>
+      <FileName>Parser\Parser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.ReflectionContext" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Parser\ReflectionContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DPPS.SyntaxException">
+    <Position X="18" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parser\SyntaxException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.Tokenizer">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAMAAAAgAAAAIAAAAEAAgAAAAAAAAAAAAAAAQABBAAA=</HashCode>
+      <FileName>Parser\Tokenizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.Constants">
+    <Position X="28.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIJAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPS.ContextForParser" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>ContextForParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DPPS.Program">
+    <Position X="32.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Exception" Collapsed="true">
+    <Position X="18" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="DPPS.IContext">
+    <Position X="20" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Parser\IContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="DPPS.Token">
+    <Position X="22" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABQAAAAAAAEADAAAAAAAgAAAAAAAASAAAAEA=</HashCode>
+      <FileName>Parser\Token.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
