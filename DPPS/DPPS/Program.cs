@@ -65,8 +65,20 @@ namespace DPPS
                             var fileCommand = commands.FirstOrDefault(x => x == "-sf" || x == "--seqfile");
                             var fileParameter = commands[Array.IndexOf(commands, fileCommand) + 1];
 
-                            fileResolver.LoadFile(fileParameter);
-                            fileResolver.CalculateSequenceByMyParser();
+                            if (fileResolver.isGenerateFile)
+                            {
+                                var sequenseCommand = commands.FirstOrDefault(x => x == "-s" || x == "-sequence");
+                                var sequenseParameter = commands[Array.IndexOf(commands, sequenseCommand) + 1];
+
+                                fileResolver.Expression = sequenseParameter;
+                                fileResolver.CalculateSequenceByMyParser();
+                                fileResolver.GenerateFile(fileParameter);
+                            }
+                            else
+                            {
+                                fileResolver.LoadFile(fileParameter);
+                                fileResolver.CalculateSequenceByMyParser();
+                            }
                             break;
 
                         case "-s":
